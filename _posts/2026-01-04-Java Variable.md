@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Java Variable"
+---
+
 # 2026-01-04
 
 ## 오늘 한 것

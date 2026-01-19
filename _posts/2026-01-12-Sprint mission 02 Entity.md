@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Sprint mission 02 Entity"
+---
+
 # 2026-01-12
 
 ## 오늘 한 것

@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Weekly paper2 객체지향 & Stream API"
+---
+
 1) SRP(단일 책임 원칙) & OCP(개방-폐쇄 원칙)
 
 **SRP: Single Responsibility Principle

@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Git Foundation"
+---
+
 # 2026-01-03
 
 ## 오늘 한 것

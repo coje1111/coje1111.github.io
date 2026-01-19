@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Object Method"
+---
+
 # 2026-01-08
 
 ## 오늘 한 것

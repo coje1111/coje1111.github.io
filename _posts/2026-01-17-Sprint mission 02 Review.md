@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Sprint mission 02 Review"
+---
+
 # 2026-01-17
 
 ## 오늘 한 것

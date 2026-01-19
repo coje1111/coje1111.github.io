@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Sprint mission 02 Channel"
+---
+
 # 2026-01-16
 
 ## 오늘 한 것

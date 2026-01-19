@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Object Class"
+---
+
 # 2026-01-09
 
 ## 오늘 한 것

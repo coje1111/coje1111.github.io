@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Sprint mission 02 CRUD"
+---
+
 # 2026-01-14
 
 ## 오늘 한 것

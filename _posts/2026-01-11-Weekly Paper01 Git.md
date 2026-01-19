@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Weekly Paper 01 Git"
+---
+
 # 2026-01-11
 
 ## 오늘 한 것

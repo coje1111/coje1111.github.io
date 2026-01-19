@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Conditional"
+---
+
 # 2026-01-05 학습 기록
 
 ## 1. 오늘 한 공부

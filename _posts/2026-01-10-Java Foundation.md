@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Java Foundation"
+---
+
 # 2026-01-10
 
 ## 오늘 한 것

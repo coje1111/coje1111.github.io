@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Weekly paper2 객체지향 & Stream API ex code"
+---
+
 # 위클리 페이퍼 – 객체지향 & Stream API
 
 ## 1️⃣ 단일 책임 원칙(SRP)
