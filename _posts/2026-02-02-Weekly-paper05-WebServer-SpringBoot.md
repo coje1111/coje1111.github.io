@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Weekly Paper"
+title: "Weekly Paper #5 Web Server & Spring Boot"
 ---
 
 # 2026-02-02
