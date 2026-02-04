@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Algorithms and dataStructure.md"
+title: "Algorithms and dataStructure"
 ---
 
 # 2026-01-30
