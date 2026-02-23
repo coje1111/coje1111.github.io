@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Sprint5 - Swagger 오류 해결 및 적용"
-date: 2026-02-20
 ---
+# 2026-02-20
 
 ## 오늘 한 것
 
