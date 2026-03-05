@@ -3,7 +3,7 @@ layout: post
 title: Spring missions 6th - User Setting
 ---
 
-# 2026-03-04
+# 2026-03-05
 
 ## 오늘 한 것
 * 구형 저장소(메모리, 파일) 방식에서 JPA 기반 데이터베이스 저장 방식으로 User 도메인 마이그레이션.
