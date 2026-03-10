@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pagination, Validation, and Global Exception Handling
+title: Sprint 06 Pagination, Validation, and Global Exception Handling
 ---
 
 # 2026-03-10
