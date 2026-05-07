@@ -97,6 +97,7 @@ tags: [Spring Boot, AWS, Docker, Dashboard, CI/CD, Troubleshooting]
 - AWS 수동 배포 및 자동 배포 환경 구성
 - AWS Lambda를 활용한 CloudWatch 로그의 S3 적재 자동화
 - Docker 및 Docker Compose 환경 구성
+- Jacoco 테스트 커버리지 리포트 활성화 및 코드 커버리지 확인 환경 구성
 - 발표 PPT 전체 구성 및 수정
 - 배포 과정에서 발생한 AWS 관련 이슈 해결
 
