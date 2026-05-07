@@ -27,7 +27,7 @@ tags: [Spring Boot, AWS, Docker, Dashboard, CI/CD, Troubleshooting]
 
 ## 핵심 기능
 
-<details>
+<details markdown="1">
 <summary>▶ 핵심 기능 전체 보기</summary>
 
 ### 사용자 관리
@@ -134,7 +134,7 @@ tags: [Spring Boot, AWS, Docker, Dashboard, CI/CD, Troubleshooting]
 이번 프로젝트에서 담당한 핵심 기능은 대시보드 파트였습니다.  
 대시보드는 서비스 내 활동 데이터를 기반으로 기간별 랭킹을 제공하는 기능입니다.
 
-<details>
+<details markdown="1">
 <summary>▶ 대시보드 기능 상세 보기</summary>
 
 ### 인기 도서
@@ -199,7 +199,7 @@ tags: [Spring Boot, AWS, Docker, Dashboard, CI/CD, Troubleshooting]
 
 ## AWS 배포 트러블슈팅
 
-<details>
+<details markdown="1">
 <summary>▶ AWS 배포 트러블슈팅 상세 보기</summary>
 
 ### 문제 발생 배경
@@ -405,7 +405,7 @@ Dockerfile에서 실행 환경으로 `amazoncorretto:17-alpine`을 사용하고 
 
 ## 개선할 수 있는 부분
 
-<details>
+<details markdown="1">
 <summary>▶ 코드 품질 및 최적화 개선점 보기</summary>
 
 현재 일부 조회 로직은 Java Stream 필터링에 의존하고 있습니다.
