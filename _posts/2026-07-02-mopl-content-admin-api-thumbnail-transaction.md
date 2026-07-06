@@ -255,3 +255,85 @@ DB 트랜잭션 안에서 처리되는 값과 그렇지 않은 값을 구분해�
 
 기능이 정상적으로 동작하는지 확인하는 것도 중요하지만, 예외 상황에서 서비스가 이상한 상태로 남지 않게 만드는 것도 그만큼 중요하다는 것을 배웠다.
 
+
+## 수정 보완 기록
+
+### 2026-07-06: 콘텐츠 타입 enum JSON 변환 기준 수정
+
+관리자 콘텐츠 등록 API를 실제로 호출해보는 과정에서 콘텐츠 등록이 실패하는 문제가 있었다.
+
+처음에는 썸네일 업로드, 관리자 권한, CSRF 처리 중 하나가 문제일 수 있다고 생각했다. 그래서 실제 multipart 요청을 만들어 등록을 시도했다.
+
+결과는 다음과 같았다.
+
+```text
+request.type = "movie"  -> 400 COMMON_400
+request.type = "MOVIE"  -> 201 Created
+```
+
+즉 문제는 파일 업로드나 권한 문제가 아니라 `ContentType` enum의 JSON 변환 기준이었다.
+
+Java 내부 enum 이름은 다음과 같다.
+
+```java
+MOVIE
+TV_SERIES
+SPORT
+```
+
+하지만 API 명세와 프론트에서 사용하는 값은 다음과 같다.
+
+```text
+movie
+tvSeries
+sport
+```
+
+기존 `ContentType`에는 `MOVIE("movie")`처럼 API 표현값을 따로 가지고 있었지만, Jackson이 요청 JSON을 enum으로 변환할 때 이 값을 사용하도록 설정하지 않았다.
+
+그래서 API 명세대로 `"movie"`를 보내면 Jackson은 `MOVIE`라는 enum 이름을 찾지 못하고 JSON 파싱 실패를 발생시켰다.
+
+해결은 `ContentType`에 JSON 변환 기준을 명시하는 방식으로 했다.
+
+```java
+@JsonValue
+public String getValue() {
+  return value;
+}
+
+@JsonCreator
+public static ContentType from(String value) {
+  return Arrays.stream(values())
+      .filter(type -> type.value.equals(value))
+      .findFirst()
+      .orElseThrow(...);
+}
+```
+
+이렇게 하면 Java 내부에서는 `ContentType.MOVIE`를 사용하되, API 요청과 응답에서는 명세 기준인 `movie`를 사용할 수 있다.
+
+이번 문제에서 더 중요했던 부분은 테스트였다.
+
+기존 테스트는 `ContentCreateRequest` 객체를 만들면서 `ContentType.MOVIE` enum을 직접 넣었다. 그래서 실제 프론트 요청처럼 `"movie"` 문자열을 보내는 상황을 검증하지 못했다.
+
+테스트도 다음처럼 실제 API 명세와 같은 raw JSON multipart part를 보내도록 보완했다.
+
+```json
+{
+  "type": "movie",
+  "title": "등록 제목",
+  "description": "등록 설명",
+  "tags": ["등록태그", "영화"]
+}
+```
+
+그리고 응답도 `"MOVIE"`가 아니라 `"movie"`로 내려오는지 확인했다.
+
+이번 보완으로 얻은 교훈은 단순하다.
+
+- Java enum 이름과 API 명세값은 다를 수 있다.
+- 내부 코드에서 enum 객체를 직접 넣는 테스트만으로는 실제 API 요청을 완전히 검증할 수 없다.
+- 명세가 문자열 값을 정의하고 있다면, 테스트도 그 문자열 값을 직접 보내야 한다.
+- `@JsonCreator`, `@JsonValue`는 enum의 내부 이름과 외부 표현값을 분리할 때 필요하다.
+
+기능 자체는 작은 수정이었지만, 테스트가 실제 사용 방식과 달라서 문제가 숨어 있었던 사례였다.
