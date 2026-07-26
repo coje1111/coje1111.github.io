@@ -35,10 +35,13 @@ OpenSearch 문서를 API 응답으로 바로 반환하지 않은 이유는 데�
 id
 title
 description
+initials
 type
 tags
 createdAt
 averageRating
+reviewCount
+watcherCount
 ```
 
 제목과 설명에는 2~20글자 ngram 분석기를 적용했다. 예를 들어 `인터스텔라`를 색인하면 일부 문자열로도 검색할 수 있는 토큰이 만들어진다.
@@ -52,7 +55,7 @@ OpenSearch는 다음 작업을 담당한다.
 - 제목 또는 설명 키워드 검색
 - 콘텐츠 타입 필터
 - 여러 태그의 OR 조건 필터
-- 최신순·평점순 정렬
+- 최신순·평점순·인기순 정렬
 - `search_after` 기반 커서 페이지네이션
 
 검색 결과에서는 정렬된 Content ID 목록만 가져온다.
@@ -70,18 +73,23 @@ Redis/DB 벌크 조회
 
 DB 벌크 조회 결과의 순서는 보장되지 않기 때문에, 마지막에는 OpenSearch가 반환한 ID 순서대로 DTO를 다시 정렬해야 한다.
 
-`watcherCount`는 실시간으로 계속 바뀌며 OpenSearch 문서에 동기화하지 않는다. 따라서 시청자 수 정렬은 기존 DB 조회를 사용한다.
+초기에는 실시간으로 계속 바뀌는 `watcherCount`를 OpenSearch에 저장하지 않고 시청자 수 정렬만 DB에서 처리했다.
+
+이후 초성 검색 결과도 인기순으로 정렬해야 하는 요구사항이 생겼다. 최종 구현에서는 WatchingSession 입장·퇴장 이벤트로 `watcherCount`를 부분 갱신하고, 매시간 배치로 누락된 값을 보정한다.
+
+인기순은 `watcherCount`, `reviewCount`, `averageRating`, `id` 순으로 정렬한다.
 
 ## 모든 검색 요청을 OpenSearch로 보내지 않기
 
 다음 조건에서는 기존 DB 검색을 사용한다.
 
-- 검색어가 없거나 공백인 경우
+- 검색어가 없거나 공백이며 인기순 요청이 아닌 경우
 - 검색어가 1글자인 경우
 - 검색어가 20글자를 초과하는 경우
-- `watcherCount` 정렬
 - OpenSearch에서 처리할 수 없는 커서 조합
 - OpenSearch 요청 중 예외가 발생한 경우
+
+한 글자라도 `ㄱ`부터 `ㅎ`까지의 초성이면 OpenSearch 검색을 허용한다. 일반 한 글자 검색은 기존 DB 경로를 유지한다.
 
 OpenSearch는 조회 성능을 높이는 보조 시스템이다. 검색 서버 장애가 전체 콘텐츠 API 장애로 번지지 않도록 fallback 경로를 유지했다.
 
@@ -104,7 +112,15 @@ OpenSearch는 조회 성능을 높이는 보조 시스템이다. 검색 서버 �
 
 리뷰 통계 변경
   -> averageRating·reviewCount 갱신 COMMIT
-  -> 평점 색인 갱신
+  -> 리뷰 통계 색인 갱신
+
+시청 세션 입장·퇴장
+  -> WatchingSession COMMIT
+  -> watcherCount 부분 갱신
+
+인기순 보정 배치
+  -> 매시간 활성 Content를 청크 조회
+  -> 누락되거나 오래된 watcherCount 보정
 ```
 
 외부 수집에서는 매 건 OpenSearch를 호출하지 않고, 청크에서 생성된 ID를 모아 `saveAll`로 처리한다.
@@ -161,13 +177,17 @@ Lambda는 OpenSearch에 접근했지만 Spring 애플리케이션 사용자는 �
 ## 테스트한 범위
 
 - 한글 제목·설명 부분 검색
+- 한글 초성 검색
 - 타입과 태그 필터
-- 최신순·평점순 정렬
+- 최신순·평점순·인기순 정렬
 - `search_after` 커서 페이지네이션
+- 인기순 복합 커서 페이지네이션
 - OpenSearch 결과 ID 순서를 유지한 DTO 조립
 - 등록·수정·삭제 후 색인 동기화
 - 외부 콘텐츠 청크 저장 후 일괄 색인
 - 리뷰 통계 변경 후 평점 색인 갱신
+- 시청 세션 변경 후 watcherCount 부분 갱신
+- 매시간 인기순 보정 배치
 - OpenSearch 예외 시 DB fallback
 
 ## 배운 점
