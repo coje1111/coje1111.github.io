@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[모두의 플리] Logback 로그를 Spring Batch로 S3에 백업하기"
+topic: "모두의 플리"
 date: 2026-07-15 09:00:00 +0900
 ---
 

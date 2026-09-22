@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Spring Boot 컨트롤러 코드 해체 및 동작 원리 이해"
+title: "[Spring/Spring Boot] Spring Boot 컨트롤러 코드와 동작 원리 이해하기"
+topic: "Spring/Spring Boot"
 ---
 
 # 2026-03-26

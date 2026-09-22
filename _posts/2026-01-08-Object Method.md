@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Object Method"
+title: "[Java/객체지향] 객체와 메서드의 역할 이해하기"
+topic: "Java/객체지향"
 ---
 
 # 2026-01-08

@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Sprint 5 - Swagger UI"
+title: "[디스코드잇] Swagger UI로 API 문서화 흐름 점검하기"
+topic: "디스코드잇"
 ---
 
 # 2026-02-24

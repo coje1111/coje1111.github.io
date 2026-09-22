@@ -1,6 +1,7 @@
-﻿---
+---
 layout: post
-title: "Weekly Paper 15 - Race Condition과 비동기 컨텍스트 전달"
+title: "[인프라/DevOps] Race Condition과 비동기 컨텍스트 전달 이해하기"
+topic: "인프라/DevOps"
 ---
 
 # Weekly Paper 15 - Race Condition과 비동기 컨텍스트 전달

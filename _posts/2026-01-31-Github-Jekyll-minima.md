@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "About basic title of minima"
+title: "[개발 도구/학습] Jekyll Minima 홈 제목 중복 원인 이해하기"
+topic: "개발 도구/학습"
 ---
 
 # 2026-01-31

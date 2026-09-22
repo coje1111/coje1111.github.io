@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Java Foundation"
+title: "[개발 도구/학습] Java 변수 연습과 Git 저장소 문제 해결하기"
+topic: "개발 도구/학습"
 ---
 
 # 2026-01-02

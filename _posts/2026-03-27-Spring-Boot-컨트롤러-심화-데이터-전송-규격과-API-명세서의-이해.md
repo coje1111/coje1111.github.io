@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Spring Boot 컨트롤러 심화: 데이터 전송 규격과 API 명세서의 이해"
+title: "[Spring/Spring Boot] Spring Boot 컨트롤러의 데이터 전송 규격과 API 명세 이해하기"
+topic: "Spring/Spring Boot"
 ---
 
 # 2026-03-27

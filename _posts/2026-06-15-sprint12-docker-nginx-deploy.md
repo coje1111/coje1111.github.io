@@ -1,6 +1,7 @@
-﻿---
+---
 layout: post
-title: "Nginx와 Docker Compose로 배포 구조 만들기"
+title: "[디스코드잇] Nginx와 Docker Compose로 배포 구조 만들기"
+topic: "디스코드잇"
 ---
 
 # Nginx와 Docker Compose로 배포 구조 만들기

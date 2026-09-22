@@ -1,6 +1,7 @@
-﻿---
+---
 layout: post
-title: "Spring Security 전체 구조 이해하기"
+title: "[디스코드잇] Spring Security 전체 구조 이해하기"
+topic: "디스코드잇"
 ---
 
 # Spring Security 전체 구조 이해하기

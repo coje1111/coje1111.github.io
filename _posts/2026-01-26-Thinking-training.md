@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Thinking Training"
+title: "[개발 도구/학습] 코드 없이 문제 해결 흐름 사고 훈련하기"
+topic: "개발 도구/학습"
 ---
 
 # 2026-01-26

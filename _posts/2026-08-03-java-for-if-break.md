@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "자바 반복문 다시 배우기: 조건식 없는 for문과 break"
+title: "[Java/객체지향] 조건식 없는 for문과 break 다시 배우기"
+topic: "Java/객체지향"
 ---
 
 # 2026-08-03

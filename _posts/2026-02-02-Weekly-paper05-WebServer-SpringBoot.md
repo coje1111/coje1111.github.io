@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Weekly Paper #5 Web Server & Spring Boot"
+title: "[Spring/Spring Boot] 웹 서버·WAS와 Spring Boot 빈 등록 이해하기"
+topic: "Spring/Spring Boot"
 ---
 
 # 2026-02-02

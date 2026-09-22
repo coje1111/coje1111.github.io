@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Backjoon 1330 두 수 비교하기
+title: "[Java/객체지향] 백준 1330 두 수 비교 문제 풀이하기"
+topic: "Java/객체지향"
 ---
 
 # 2026-03-04

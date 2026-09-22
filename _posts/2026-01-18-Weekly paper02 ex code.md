@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Weekly paper2 객체지향 & Stream API ex code"
+title: "[Java/객체지향] SOLID와 Stream API를 예제로 이해하기"
+topic: "Java/객체지향"
 ---
 
 # 위클리 페이퍼 – 객체지향 & Stream API

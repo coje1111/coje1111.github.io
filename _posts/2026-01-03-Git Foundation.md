@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Git Foundation"
+title: "[개발 도구/학습] Git 커밋 이메일과 GitHub 기록 연결하기"
+topic: "개발 도구/학습"
 ---
 
 # 2026-01-03

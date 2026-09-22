@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Sprint6 User Test
+title: "[디스코드잇] 사용자 기능 테스트 작성하기"
+topic: "디스코드잇"
 ---
 
 # 2026-03-05 (2차 기록)

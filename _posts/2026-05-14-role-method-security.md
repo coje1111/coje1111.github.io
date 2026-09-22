@@ -1,6 +1,7 @@
-﻿---
+---
 layout: post
-title: "Role과 Method Security로 권한 적용하기"
+title: "[디스코드잇] Role과 Method Security로 권한 적용하기"
+topic: "디스코드잇"
 ---
 
 # Role과 Method Security로 권한 적용하기

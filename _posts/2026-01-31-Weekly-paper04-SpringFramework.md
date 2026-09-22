@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Weekly Paper #4 Spring Framework"
+title: "[Spring/Spring Boot] Spring Framework의 등장 배경과 프레임워크 이해하기"
+topic: "Spring/Spring Boot"
 ---
 
 # 2026-01-31

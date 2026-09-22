@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "JWT 토큰 인증 흐름 이해하기"
+title: "[디스코드잇] JWT 토큰 인증 흐름 이해하기"
+topic: "디스코드잇"
 ---
 
 # JWT 토큰 인증 흐름 이해하기

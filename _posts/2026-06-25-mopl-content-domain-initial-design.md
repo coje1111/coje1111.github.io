@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[모두의 플리] Content 도메인 초기 설계 기록"
+topic: "모두의 플리"
 ---
 
 # [모두의 플리] Content 도메인 초기 설계 기록

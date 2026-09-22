@@ -1,6 +1,7 @@
-﻿---
+---
 layout: post
-title: "Remember-me로 로그인 유지 구현하기"
+title: "[디스코드잇] Remember-me로 로그인 유지 구현하기"
+topic: "디스코드잇"
 ---
 
 # Remember-me로 로그인 유지 구현하기

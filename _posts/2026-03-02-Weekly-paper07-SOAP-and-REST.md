@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Weekly Paper #07 - SOAP vs REST & Spring Boot Request Flow"
+title: "[Spring/Spring Boot] SOAP·REST와 Spring Boot 요청 처리 흐름 비교하기"
+topic: "Spring/Spring Boot"
 ---
 
 # 2026-03-02

@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Weekly Paper 01 Git"
+title: "[개발 도구/학습] Git merge·rebase·fetch·pull 비교하기"
+topic: "개발 도구/학습"
 ---
 
 # 2026-01-11

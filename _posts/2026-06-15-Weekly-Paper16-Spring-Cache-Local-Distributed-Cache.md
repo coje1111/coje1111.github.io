@@ -1,6 +1,7 @@
-﻿---
+---
 layout: post
-title: "Weekly Paper 16 - Spring Cache와 로컬 캐시, 분산 캐시"
+title: "[인프라/DevOps] Spring Cache와 로컬·분산 캐시 비교하기"
+topic: "인프라/DevOps"
 ---
 
 # Weekly Paper 16 - Spring Cache와 로컬 캐시, 분산 캐시

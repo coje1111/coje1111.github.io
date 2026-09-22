@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Sprint4 Discord API 미션 전체 완료 보고"
+title: "[디스코드잇] User·Channel·Message API 완성하기"
+topic: "디스코드잇"
 ---
 
 # 2026-02-17

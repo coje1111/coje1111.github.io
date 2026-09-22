@@ -1,6 +1,7 @@
-﻿---
+---
 layout: post
-title: "CSR 환경에서 CSRF 토큰 처리하기"
+title: "[디스코드잇] CSR 환경에서 CSRF 토큰 처리하기"
+topic: "디스코드잇"
 ---
 
 # CSR 환경에서 CSRF 토큰 처리하기

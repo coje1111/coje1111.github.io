@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "[Sprint4] Controller 레이어 시작 + Postman 세팅 + 파일 저장(.ser) 구조 파악"
+title: "[디스코드잇] Controller 계층과 Postman 테스트 환경 구성하기"
+topic: "디스코드잇"
 ---
 # 2026-02-11
 

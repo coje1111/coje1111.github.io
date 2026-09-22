@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Camel Case"
+title: "[Java/객체지향] 자바 변수 명명 규칙과 camelCase 이해하기"
+topic: "Java/객체지향"
 ---
 
 # 2026-02-19

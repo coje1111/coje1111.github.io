@@ -1,6 +1,7 @@
 ---
 layout: post
-title: 프론트엔드 정적 자원 통합 및 500 Internal Server Error 해결
+title: "[디스코드잇] 프론트엔드 정적 자원 통합과 500 오류 해결하기"
+topic: "디스코드잇"
 ---
 
 # 2026-03-07

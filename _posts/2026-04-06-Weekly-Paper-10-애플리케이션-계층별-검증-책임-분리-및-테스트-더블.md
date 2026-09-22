@@ -1,3 +1,8 @@
+---
+layout: post
+title: "[Spring/Spring Boot] 계층별 검증 책임과 테스트 더블 이해하기"
+topic: "Spring/Spring Boot"
+---
 ## 1. 애플리케이션 계층별 입력값 검증과 트레이드오프
 
 ### 계층별 검증 범위와 책임

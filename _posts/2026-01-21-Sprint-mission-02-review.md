@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Sprint mission 02 Review"
+title: "[디스코드잇] JCF·파일 저장 구현과 PR 흐름 복습하기"
+topic: "디스코드잇"
 ---
 
 # 2026-01-21

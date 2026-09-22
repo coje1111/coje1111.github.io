@@ -1,6 +1,7 @@
-﻿---
+---
 layout: post
-title: "Spring Event로 파일 저장 로직 분리하기"
+title: "[디스코드잇] Spring Event로 파일 저장 로직 분리하기"
+topic: "디스코드잇"
 ---
 
 # Spring Event로 파일 저장 로직 분리하기

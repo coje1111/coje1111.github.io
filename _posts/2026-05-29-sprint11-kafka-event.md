@@ -1,6 +1,7 @@
-﻿---
+---
 layout: post
-title: "Kafka로 Spring Event를 외부 메시지로 바꾸기"
+title: "[디스코드잇] Kafka로 Spring Event를 외부 메시지로 바꾸기"
+topic: "디스코드잇"
 ---
 
 # Kafka로 Spring Event를 외부 메시지로 바꾸기

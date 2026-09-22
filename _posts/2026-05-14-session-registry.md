@@ -1,6 +1,7 @@
-﻿---
+---
 layout: post
-title: "SessionRegistry로 세션 관리 고도화하기"
+title: "[디스코드잇] SessionRegistry로 세션 관리 고도화하기"
+topic: "디스코드잇"
 ---
 
 # SessionRegistry로 세션 관리 고도화하기

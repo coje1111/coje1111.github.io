@@ -1,3 +1,8 @@
+---
+layout: post
+title: "[DB/JPA] SQL DDL·DML과 역정규화 이해하기"
+topic: "DB/JPA"
+---
 # 위클리 페이퍼: SQL 핵심 명령어 및 역정규화의 이해
 
 ## 1. SQL에서 DDL과 DML의 차이점 및 대표 명령어

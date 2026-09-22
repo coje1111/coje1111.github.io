@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Weekly paper2 객체지향 & Stream API"
+title: "[Java/객체지향] SOLID와 Stream API 개념 정리하기"
+topic: "Java/객체지향"
 ---
 
 1) SRP(단일 책임 원칙) & OCP(개방-폐쇄 원칙)

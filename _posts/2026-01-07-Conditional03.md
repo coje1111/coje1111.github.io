@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Conditional03"
+title: "[Java/객체지향] 조건문으로 할인·배송비·포인트 계산하기"
+topic: "Java/객체지향"
 ---
 
 # 2026-01-07

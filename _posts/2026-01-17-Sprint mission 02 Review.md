@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Sprint mission 02 Review"
+title: "[디스코드잇] 엔티티와 서비스 구조 복습하기"
+topic: "디스코드잇"
 ---
 
 # 2026-01-17

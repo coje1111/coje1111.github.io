@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[모두의 플리] Redis Cache-Aside로 콘텐츠 조회 고도화하기"
+topic: "모두의 플리"
 date: 2026-07-15 14:00:00 +0900
 ---
 

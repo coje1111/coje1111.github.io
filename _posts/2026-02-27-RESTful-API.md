@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "[이론정리] REST API 및 스프링 요청 처리 방식 정리"
+title: "[Spring/Spring Boot] REST API와 Spring 요청 처리 방식 이해하기"
+topic: "Spring/Spring Boot"
 ---
 
 # 2026-02-27

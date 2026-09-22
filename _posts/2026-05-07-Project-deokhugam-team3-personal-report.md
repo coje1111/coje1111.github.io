@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "개인 개발 리포트 - 덕후감 프로젝트"
+title: "[덕후감] 개인 개발 리포트"
+topic: "덕후감"
 date: 2026-05-07
 categories: [Project, Backend, AWS]
 tags: [Spring Boot, AWS, Docker, Dashboard, CI/CD, Troubleshooting]

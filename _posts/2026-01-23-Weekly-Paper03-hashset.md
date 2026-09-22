@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Weekly Paper 03 About Hash set & O(n)/O(log n)"
+title: "[Java/객체지향] HashSet 중복 제거와 시간 복잡도 이해하기"
+topic: "Java/객체지향"
 ---
 
 # 2026-01-23

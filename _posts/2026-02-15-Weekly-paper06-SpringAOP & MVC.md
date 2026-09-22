@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Weekly Paper #06 - Spring AOP & MVC"
+title: "[Spring/Spring Boot] Spring AOP와 MVC 요청 처리 흐름 이해하기"
+topic: "Spring/Spring Boot"
 ---
 
 # 2026-02-15

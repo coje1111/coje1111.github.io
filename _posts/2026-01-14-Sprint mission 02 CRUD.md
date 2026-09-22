@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Sprint mission 02 CRUD"
+title: "[디스코드잇] List 기반 CRUD 흐름 구현하기"
+topic: "디스코드잇"
 ---
 
 # 2026-01-14

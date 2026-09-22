@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Conditional02"
+title: "[Java/객체지향] 복합 조건과 단계별 결제 금액 계산하기"
+topic: "Java/객체지향"
 ---
 
 # 2026-01-06

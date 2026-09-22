@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Java Foundation"
+title: "[Java/객체지향] 조건문·반복문·배열 문제로 제어 흐름 익히기"
+topic: "Java/객체지향"
 ---
 
 # 2026-01-10

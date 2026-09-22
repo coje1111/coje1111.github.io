@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "AWS ECS 기반 Spring Boot 무중단 배포 트러블슈팅 및 Docker 멀티플랫폼 빌드 완벽 해체"
+title: "[디스코드잇] AWS ECS 무중단 배포와 Docker 멀티플랫폼 문제 해결하기"
+topic: "디스코드잇"
 ---
 
 # 2026-04-08

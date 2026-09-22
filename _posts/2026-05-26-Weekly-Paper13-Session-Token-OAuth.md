@@ -1,6 +1,7 @@
-﻿---
+---
 layout: post
-title: "Weekly Paper 13 - 세션 인증, 토큰 인증, OAuth 2.0"
+title: "[보안/인증] 세션 인증·토큰 인증·OAuth 2.0 비교하기"
+topic: "보안/인증"
 ---
 
 # Weekly Paper 13 - 세션 인증, 토큰 인증, OAuth 2.0

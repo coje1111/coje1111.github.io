@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Spring and Http"
+title: "[Spring/Spring Boot] Spring·HTTP·TCP/IP 요청 흐름 이해하기"
+topic: "Spring/Spring Boot"
 ---
 
 # 2026-02-04

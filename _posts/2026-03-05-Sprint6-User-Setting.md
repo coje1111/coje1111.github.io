@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Spring missions 6th - User Setting
+title: "[디스코드잇] 사용자 설정 기능 구현하기"
+topic: "디스코드잇"
 ---
 
 # 2026-03-05

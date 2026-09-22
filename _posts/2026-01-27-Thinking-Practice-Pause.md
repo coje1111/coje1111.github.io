@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Thinking Practice Pause"
+title: "[개발 도구/학습] 사고 훈련을 점검하고 코드 풀이로 전환하기"
+topic: "개발 도구/학습"
 ---
 
 # 2026-01-27

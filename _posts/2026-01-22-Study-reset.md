@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Study Reset"
+title: "[개발 도구/학습] 학습 상태를 점검하고 사고 훈련 기준 세우기"
+topic: "개발 도구/학습"
 ---
 
 # 2026-01-22

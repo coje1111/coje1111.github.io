@@ -1,6 +1,7 @@
-﻿---
+---
 layout: post
-title: "Caffeine과 Redis Cache 비교하며 적용하기"
+title: "[디스코드잇] Caffeine과 Redis Cache 비교하며 적용하기"
+topic: "디스코드잇"
 ---
 
 # Caffeine과 Redis Cache 비교하며 적용하기

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[모두의 플리] 개인 개발 리포트"
+topic: "모두의 플리"
 date: 2026-07-29 18:00:00 +0900
 categories: [Project, Backend]
 tags: [Spring Boot, Spring Batch, PostgreSQL, Redis, OpenSearch, AWS S3, Performance, Troubleshooting]

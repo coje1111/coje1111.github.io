@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Conditional"
+title: "[Java/객체지향] 조건문의 우선순위와 지역 변수 초기화 이해하기"
+topic: "Java/객체지향"
 ---
 
 # 2026-01-05 학습 기록

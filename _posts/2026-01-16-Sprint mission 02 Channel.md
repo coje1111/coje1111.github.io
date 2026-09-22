@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Sprint mission 02 Channel"
+title: "[디스코드잇] Channel 도메인을 구현하며 메서드 흐름 점검하기"
+topic: "디스코드잇"
 ---
 
 # 2026-01-16

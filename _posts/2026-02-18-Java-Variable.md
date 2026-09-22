@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Java Variable"
+title: "[Java/객체지향] 자바 변수·리터럴·기본 자료형 복습하기"
+topic: "Java/객체지향"
 ---
 
 # 2026-02-18

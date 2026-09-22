@@ -1,0 +1,39 @@
+- name: 모두의 플리
+  group: 프로젝트
+  description: 콘텐츠 수집·검색·배치·캐시·운영 개선
+
+- name: 덕후감
+  group: 프로젝트
+  description: 팀 프로젝트 구현과 개인 개발 회고
+
+- name: HR Bank
+  group: 프로젝트
+  description: 첫 팀 프로젝트 구현과 성장 기록
+
+- name: 디스코드잇
+  group: 프로젝트
+  description: 단계별 스프린트 미션과 채팅 서비스 고도화
+
+- name: Java/객체지향
+  group: 기술 학습
+  description: 자바 문법·자료구조·객체지향 설계
+
+- name: Spring/Spring Boot
+  group: 기술 학습
+  description: 웹 요청 흐름·계층 구조·프레임워크 핵심
+
+- name: DB/JPA
+  group: 기술 학습
+  description: SQL·트랜잭션·영속성·JPA 성능
+
+- name: 보안/인증
+  group: 기술 학습
+  description: 세션·토큰·OAuth·웹 보안
+
+- name: 인프라/DevOps
+  group: 기술 학습
+  description: Docker·AWS·메시징·캐시·배포 자동화
+
+- name: 개발 도구/학습
+  group: 기술 학습
+  description: Git·블로그·문제 해결과 학습 회고

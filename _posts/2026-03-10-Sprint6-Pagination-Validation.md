@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Sprint 06 Pagination, Validation, and Global Exception Handling
+title: "[디스코드잇] 페이지네이션·검증·전역 예외 처리 구현하기"
+topic: "디스코드잇"
 ---
 
 # 2026-03-10

@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Weekly Paper #12 - AWS RDS & GitHub Actions Trigger"
+title: "[인프라/DevOps] AWS RDS와 GitHub Actions 트리거 이해하기"
+topic: "인프라/DevOps"
 ---
 
 # 2026-05-18

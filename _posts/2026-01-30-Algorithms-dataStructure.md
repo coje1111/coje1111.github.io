@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Algorithms and dataStructure"
+title: "[Java/객체지향] 알고리즘과 자료구조 학습 범위 점검하기"
+topic: "Java/객체지향"
 ---
 
 # 2026-01-30
