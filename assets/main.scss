@@ -420,6 +420,254 @@
   text-align: center;
 }
 
+/* Post reading layout */
+.post {
+  max-width: 780px;
+  margin: 0 auto;
+  padding-bottom: 4rem;
+}
+
+.post-header {
+  position: relative;
+  overflow: hidden;
+  margin: 0 0 2.5rem;
+  padding: 2.25rem 2.4rem 2rem;
+  border: 1px solid #dbe4f0;
+  border-radius: 20px;
+  background:
+    radial-gradient(circle at 92% 10%, rgba(96, 165, 250, 0.2), transparent 34%),
+    linear-gradient(135deg, #f8fbff 0%, #f1f6ff 55%, #f8fafc 100%);
+  box-shadow: 0 12px 34px rgba(51, 65, 85, 0.07);
+}
+
+.post-header::before {
+  display: block;
+  margin-bottom: 0.75rem;
+  color: var(--archive-accent);
+  content: "BACKEND LEARNING NOTE";
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.post-title {
+  margin: 0;
+  color: var(--archive-ink);
+  font-size: clamp(1.75rem, 4.5vw, 2.35rem);
+  font-weight: 800;
+  letter-spacing: -0.035em;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+  word-break: keep-all;
+}
+
+.post-meta {
+  margin: 1rem 0 0;
+  color: var(--archive-muted);
+  font-size: 0.82rem;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.015em;
+}
+
+.post-content {
+  color: #27364b;
+  font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Segoe UI", sans-serif;
+  font-size: 0.98rem;
+  letter-spacing: -0.012em;
+  line-height: 1.85;
+  overflow-wrap: anywhere;
+  word-break: keep-all;
+}
+
+.post-content > h1:first-child {
+  display: none;
+}
+
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4 {
+  color: var(--archive-ink);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  scroll-margin-top: 1.5rem;
+  word-break: keep-all;
+}
+
+.post-content h2 {
+  margin: 3.2rem 0 1.1rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 2px solid #e2e8f0;
+  font-size: 1.48rem;
+  line-height: 1.45;
+}
+
+.post-content h3 {
+  margin: 2.35rem 0 0.85rem;
+  padding-left: 0.75rem;
+  border-left: 3px solid #93c5fd;
+  font-size: 1.17rem;
+  line-height: 1.5;
+}
+
+.post-content h4 {
+  margin: 1.9rem 0 0.7rem;
+  font-size: 1.04rem;
+  line-height: 1.55;
+}
+
+.post-content p {
+  margin: 0.9rem 0;
+}
+
+.post-content strong {
+  color: #16243a;
+  font-weight: 750;
+}
+
+.post-content a {
+  color: var(--archive-accent-dark);
+  text-decoration-color: rgba(37, 99, 235, 0.4);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.post-content ul,
+.post-content ol {
+  margin: 1rem 0 1.35rem;
+  padding-left: 1.55rem;
+}
+
+.post-content li {
+  padding-left: 0.15rem;
+}
+
+.post-content li + li {
+  margin-top: 0.38rem;
+}
+
+.post-content li::marker {
+  color: #64748b;
+}
+
+.post-content hr {
+  margin: 3rem 0;
+  border: 0;
+  border-top: 1px solid #dbe4f0;
+}
+
+.post-content blockquote {
+  margin: 1.5rem 0;
+  padding: 1rem 1.2rem;
+  border-left: 4px solid #60a5fa;
+  border-radius: 0 12px 12px 0;
+  background: #f5f9ff;
+  color: #475569;
+  font-size: 0.95rem;
+}
+
+.post-content blockquote > :first-child {
+  margin-top: 0;
+}
+
+.post-content blockquote > :last-child {
+  margin-bottom: 0;
+}
+
+.post-content :not(pre) > code {
+  padding: 0.12rem 0.38rem;
+  border: 1px solid #dbeafe;
+  border-radius: 5px;
+  background: #eff6ff;
+  color: #1e40af;
+  font-size: 0.88em;
+  white-space: normal;
+}
+
+.post-content pre {
+  overflow-x: auto;
+  margin: 1.4rem 0 1.7rem;
+  padding: 1.05rem 1.15rem;
+  border: 1px solid #1e293b;
+  border-radius: 12px;
+  background: #111827;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.12);
+  color: #e5edf8;
+  font-size: 0.84rem;
+  line-height: 1.7;
+  tab-size: 2;
+}
+
+.post-content pre code {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font-size: inherit;
+  white-space: pre;
+}
+
+.post-content table {
+  display: block;
+  overflow-x: auto;
+  width: 100%;
+  margin: 1.45rem 0 1.8rem;
+  border: 1px solid #dbe4f0;
+  border-collapse: collapse;
+  border-radius: 10px;
+  font-size: 0.88rem;
+  white-space: nowrap;
+}
+
+.post-content th,
+.post-content td {
+  padding: 0.72rem 0.85rem;
+  border: 1px solid #dbe4f0;
+  text-align: left;
+  vertical-align: top;
+}
+
+.post-content th {
+  background: #eef4fb;
+  color: #1e293b;
+  font-weight: 750;
+}
+
+.post-content tr:nth-child(even) td {
+  background: #f8fafc;
+}
+
+.post-content details {
+  margin: 1.35rem 0;
+  border: 1px solid #dbe4f0;
+  border-radius: 12px;
+  background: #fbfdff;
+}
+
+.post-content details > summary {
+  padding: 0.85rem 1rem;
+  color: #334155;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.post-content details[open] > summary {
+  border-bottom: 1px solid #dbe4f0;
+}
+
+.post-content details > :not(summary) {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.post-content img {
+  height: auto;
+  margin: 1.5rem auto;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(51, 65, 85, 0.08);
+}
+
 @media (max-width: 640px) {
   .learning-hero {
     padding: 2.2rem 1.25rem;
@@ -475,6 +723,44 @@
 
   .post-entry__separator {
     display: none;
+  }
+
+  .post {
+    padding-bottom: 2.5rem;
+  }
+
+  .post-header {
+    margin-bottom: 2rem;
+    padding: 1.65rem 1.25rem 1.45rem;
+    border-radius: 16px;
+  }
+
+  .post-title {
+    font-size: 1.65rem;
+    line-height: 1.4;
+  }
+
+  .post-content {
+    font-size: 0.95rem;
+    line-height: 1.8;
+  }
+
+  .post-content h2 {
+    margin-top: 2.7rem;
+    font-size: 1.32rem;
+  }
+
+  .post-content h3 {
+    margin-top: 2.1rem;
+    font-size: 1.12rem;
+  }
+
+  .post-content pre {
+    margin-right: -0.25rem;
+    margin-left: -0.25rem;
+    padding: 0.95rem;
+    border-radius: 10px;
+    font-size: 0.8rem;
   }
 }
 

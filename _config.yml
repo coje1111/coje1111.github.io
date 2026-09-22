@@ -4,3 +4,6 @@ lang: ko-KR
 theme: minima
 timezone: Asia/Seoul
 future: true
+
+minima:
+  date_format: "%Y년 %m월 %d일"
