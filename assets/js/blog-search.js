@@ -114,13 +114,13 @@
   });
 
   expandButton.addEventListener("click", () => {
-    groups.filter((group) => !group.hidden).forEach((group) => {
+    groups.forEach((group) => {
       group.open = true;
     });
   });
 
   collapseButton.addEventListener("click", () => {
-    groups.filter((group) => !group.hidden).forEach((group) => {
+    groups.forEach((group) => {
       group.open = false;
     });
   });
