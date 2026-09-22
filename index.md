@@ -8,6 +8,8 @@ title: 학습 로그
   {% assign asset_version = site.time | date: "%s" %}
 {% endunless %}
 
+<link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}?v={{ asset_version }}">
+
 <div class="learning-home" data-search-index="{{ '/search-index.json' | relative_url }}?v={{ asset_version }}">
   <section class="learning-hero" aria-labelledby="learning-log-title">
     <p class="learning-hero__eyebrow">BACKEND LEARNING ARCHIVE</p>
