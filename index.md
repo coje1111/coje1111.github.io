@@ -3,7 +3,12 @@ layout: default
 title: 학습 로그
 ---
 
-<div class="learning-home" data-search-index="{{ '/search-index.json' | relative_url }}">
+{% assign asset_version = site.github.build_revision %}
+{% unless asset_version %}
+  {% assign asset_version = site.time | date: "%s" %}
+{% endunless %}
+
+<div class="learning-home" data-search-index="{{ '/search-index.json' | relative_url }}?v={{ asset_version }}">
   <section class="learning-hero" aria-labelledby="learning-log-title">
     <p class="learning-hero__eyebrow">BACKEND LEARNING ARCHIVE</p>
     <h1 id="learning-log-title">학습 로그</h1>
@@ -96,4 +101,4 @@ title: 학습 로그
   </noscript>
 </div>
 
-<script src="{{ '/assets/js/blog-search.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/blog-search.js' | relative_url }}?v={{ asset_version }}" defer></script>
