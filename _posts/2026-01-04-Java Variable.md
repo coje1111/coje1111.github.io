@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[Java/객체지향] 변수 범위와 조건문으로 할인 계산하기"
+log_type: "기술 학습"
 topic: "Java/객체지향"
 ---
 

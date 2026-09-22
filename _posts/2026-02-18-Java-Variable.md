@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[Java/객체지향] 자바 변수·리터럴·기본 자료형 복습하기"
+log_type: "기술 학습"
 topic: "Java/객체지향"
 ---
 

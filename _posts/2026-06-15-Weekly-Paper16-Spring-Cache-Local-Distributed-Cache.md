@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[인프라/DevOps] Spring Cache와 로컬·분산 캐시 비교하기"
+log_type: "기술 학습"
 topic: "인프라/DevOps"
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[Java/객체지향] 객체와 메서드의 역할 이해하기"
+log_type: "기술 학습"
 topic: "Java/객체지향"
 ---
 

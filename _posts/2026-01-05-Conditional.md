@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[Java/객체지향] 조건문의 우선순위와 지역 변수 초기화 이해하기"
+log_type: "기술 학습"
 topic: "Java/객체지향"
 ---
 

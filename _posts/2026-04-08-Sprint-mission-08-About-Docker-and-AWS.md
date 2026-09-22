@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "[디스코드잇] AWS ECS 무중단 배포와 Docker 멀티플랫폼 문제 해결하기"
-topic: "디스코드잇"
+log_type: "프로젝트"
+project: "디스코드잇"
 ---
 
 # 2026-04-08

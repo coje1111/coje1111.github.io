@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[Java/객체지향] 변수·조건문·반복문·배열 기초 다시 익히기"
+log_type: "기술 학습"
 topic: "Java/객체지향"
 ---
 

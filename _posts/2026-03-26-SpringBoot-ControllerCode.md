@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[Spring/Spring Boot] Spring Boot 컨트롤러 코드와 동작 원리 이해하기"
+log_type: "기술 학습"
 topic: "Spring/Spring Boot"
 ---
 

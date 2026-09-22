@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[개발 도구/학습] Git merge·rebase·fetch·pull 비교하기"
+log_type: "기술 학습"
 topic: "개발 도구/학습"
 ---
 

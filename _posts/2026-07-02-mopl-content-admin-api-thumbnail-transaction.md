@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "[모두의 플리] 관리자 콘텐츠 CRUD API와 썸네일 트랜잭션 정합성 보완"
-topic: "모두의 플리"
+log_type: "프로젝트"
+project: "모두의 플리"
 ---
 
 # [모두의 플리] 관리자 콘텐츠 CRUD API와 썸네일 트랜잭션 정합성 보완

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[Java/객체지향] 복합 조건과 단계별 결제 금액 계산하기"
+log_type: "기술 학습"
 topic: "Java/객체지향"
 ---
 

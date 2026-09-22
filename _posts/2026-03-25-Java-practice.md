@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[Java/객체지향] 자바 연산자 우선순위와 실무적인 활용"
+log_type: "기술 학습"
 topic: "Java/객체지향"
 ---
 

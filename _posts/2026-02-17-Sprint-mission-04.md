@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "[디스코드잇] User·Channel·Message API 완성하기"
-topic: "디스코드잇"
+log_type: "프로젝트"
+project: "디스코드잇"
 ---
 
 # 2026-02-17

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "[디스코드잇] 분산 환경에서 Redis와 Kafka로 상태 공유하기"
-topic: "디스코드잇"
+log_type: "프로젝트"
+project: "디스코드잇"
 ---
 
 # 분산 환경에서 Redis와 Kafka로 상태 공유하기

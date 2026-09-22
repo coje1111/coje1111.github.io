@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[인프라/DevOps] AWS RDS와 GitHub Actions 트리거 이해하기"
+log_type: "기술 학습"
 topic: "인프라/DevOps"
 ---
 

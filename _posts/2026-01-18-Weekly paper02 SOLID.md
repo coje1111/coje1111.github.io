@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[Java/객체지향] SOLID와 Stream API 개념 정리하기"
+log_type: "기술 학습"
 topic: "Java/객체지향"
 ---
 

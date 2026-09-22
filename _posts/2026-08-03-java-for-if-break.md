@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[Java/객체지향] 조건식 없는 for문과 break 다시 배우기"
+log_type: "기술 학습"
 topic: "Java/객체지향"
 ---
 

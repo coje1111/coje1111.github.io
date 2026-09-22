@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "[모두의 플리] Spring Batch로 외부 콘텐츠 수집 작업 연결하기"
-topic: "모두의 플리"
+log_type: "프로젝트"
+project: "모두의 플리"
 date: 2026-07-06 09:10:00 +0900
 ---
 

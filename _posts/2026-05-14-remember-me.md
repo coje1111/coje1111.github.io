@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "[디스코드잇] Remember-me로 로그인 유지 구현하기"
-topic: "디스코드잇"
+log_type: "프로젝트"
+project: "디스코드잇"
 ---
 
 # Remember-me로 로그인 유지 구현하기

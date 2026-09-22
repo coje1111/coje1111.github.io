@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "[모두의 플리] Spring Batch 처리 결과를 Actuator와 Prometheus로 모니터링하기"
-topic: "모두의 플리"
+log_type: "프로젝트"
+project: "모두의 플리"
 date: 2026-07-13 09:20:00 +0900
 ---
 

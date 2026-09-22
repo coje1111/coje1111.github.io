@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "[모두의 플리] 콘텐츠 조회 API 구현과 LazyInitializationException 디버깅 기록"
-topic: "모두의 플리"
+log_type: "프로젝트"
+project: "모두의 플리"
 ---
 
 # [모두의 플리] 콘텐츠 조회 API 구현과 LazyInitializationException 디버깅 기록

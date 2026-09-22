@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[Spring/Spring Boot] SOAP·REST와 Spring Boot 요청 처리 흐름 비교하기"
+log_type: "기술 학습"
 topic: "Spring/Spring Boot"
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[Java/객체지향] import와 FQCN으로 클래스 경로 이해하기"
+log_type: "기술 학습"
 topic: "Java/객체지향"
 ---
 

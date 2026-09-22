@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[Java/객체지향] 자바 기초 문법을 복습하고 설계 순서 재정립하기"
+log_type: "기술 학습"
 topic: "Java/객체지향"
 ---
 

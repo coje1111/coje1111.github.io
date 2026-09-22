@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[개발 도구/학습] Jekyll Minima 홈 제목 중복 원인 이해하기"
+log_type: "기술 학습"
 topic: "개발 도구/학습"
 ---
 

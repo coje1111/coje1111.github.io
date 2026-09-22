@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[DB/JPA] 트랜잭션과 영속성 컨텍스트 이해하기"
+log_type: "기술 학습"
 topic: "DB/JPA"
 ---
 

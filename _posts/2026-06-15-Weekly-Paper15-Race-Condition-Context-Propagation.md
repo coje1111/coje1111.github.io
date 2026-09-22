@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[인프라/DevOps] Race Condition과 비동기 컨텍스트 전달 이해하기"
+log_type: "기술 학습"
 topic: "인프라/DevOps"
 ---
 

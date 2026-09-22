@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "[모두의 플리] 외부 API 콘텐츠 수집 이슈 해결 기록"
-topic: "모두의 플리"
+log_type: "프로젝트"
+project: "모두의 플리"
 date: 2026-07-09 09:00:00 +0900
 ---
 

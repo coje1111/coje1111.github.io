@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "[디스코드잇] CSR 환경에서 CSRF 토큰 처리하기"
-topic: "디스코드잇"
+log_type: "프로젝트"
+project: "디스코드잇"
 ---
 
 # CSR 환경에서 CSRF 토큰 처리하기

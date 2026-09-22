@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "[디스코드잇] JPA 엔티티 전환과 지연 로딩 직렬화 해결하기"
-topic: "디스코드잇"
+log_type: "프로젝트"
+project: "디스코드잇"
 ---
 
 # 2026-03-10

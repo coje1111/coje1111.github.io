@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[DB/JPA] JPA N+1 문제와 트랜잭션 격리 수준 이해하기"
+log_type: "기술 학습"
 topic: "DB/JPA"
 ---
 ## 1. JPA N+1 문제 원인 및 해결 방안

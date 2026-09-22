@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[Java/객체지향] 백준 1330 두 수 비교 문제 풀이하기"
+log_type: "기술 학습"
 topic: "Java/객체지향"
 ---
 

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "[디스코드잇] 엔티티와 BaseEntity 설계하기"
-topic: "디스코드잇"
+log_type: "프로젝트"
+project: "디스코드잇"
 ---
 
 # 2026-01-12

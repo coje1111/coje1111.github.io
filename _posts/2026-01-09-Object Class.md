@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[Java/객체지향] 클래스·필드·생성자의 역할 구분하기"
+log_type: "기술 학습"
 topic: "Java/객체지향"
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[DB/JPA] SQL DDL·DML과 역정규화 이해하기"
+log_type: "기술 학습"
 topic: "DB/JPA"
 ---
 # 위클리 페이퍼: SQL 핵심 명령어 및 역정규화의 이해

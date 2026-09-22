@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[Java/객체지향] 알고리즘과 자료구조 학습 범위 점검하기"
+log_type: "기술 학습"
 topic: "Java/객체지향"
 ---
 

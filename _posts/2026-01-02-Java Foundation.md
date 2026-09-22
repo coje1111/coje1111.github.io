@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[개발 도구/학습] Java 변수 연습과 Git 저장소 문제 해결하기"
+log_type: "기술 학습"
 topic: "개발 도구/학습"
 ---
 

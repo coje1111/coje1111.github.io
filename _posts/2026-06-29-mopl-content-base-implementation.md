@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "[모두의 플리] Content 기반 모델 구현과 PR 피드백 반영 기록"
-topic: "모두의 플리"
+log_type: "프로젝트"
+project: "모두의 플리"
 ---
 
 # [모두의 플리] Content 기반 모델 구현과 PR 피드백 반영 기록

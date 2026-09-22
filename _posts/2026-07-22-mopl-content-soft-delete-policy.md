@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "[모두의 플리] 콘텐츠 삭제 정책을 Soft Delete로 전환하기"
-topic: "모두의 플리"
+log_type: "프로젝트"
+project: "모두의 플리"
 date: 2026-07-22 09:00:00 +0900
 ---
 

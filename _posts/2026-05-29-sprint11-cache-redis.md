@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "[디스코드잇] Caffeine과 Redis Cache 비교하며 적용하기"
-topic: "디스코드잇"
+log_type: "프로젝트"
+project: "디스코드잇"
 ---
 
 # Caffeine과 Redis Cache 비교하며 적용하기

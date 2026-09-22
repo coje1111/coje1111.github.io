@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "[디스코드잇] List 기반 CRUD 흐름 구현하기"
-topic: "디스코드잇"
+log_type: "프로젝트"
+project: "디스코드잇"
 ---
 
 # 2026-01-14

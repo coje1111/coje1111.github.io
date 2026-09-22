@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "[모두의 플리] OpenSearch로 콘텐츠 한글 초성 검색 구현하기"
-topic: "모두의 플리"
+log_type: "프로젝트"
+project: "모두의 플리"
 date: 2026-07-26 10:00:00 +0900
 ---
 

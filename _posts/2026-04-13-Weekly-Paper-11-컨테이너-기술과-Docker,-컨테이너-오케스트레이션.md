@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[인프라/DevOps] 컨테이너와 Docker·오케스트레이션 이해하기"
+log_type: "기술 학습"
 topic: "인프라/DevOps"
 ---
 ## 1. 컨테이너 기술과 Docker의 구분 및 다른 구현 도구

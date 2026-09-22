@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[보안/인증] Spring 보안 공격과 JWT 구조 이해하기"
+log_type: "기술 학습"
 topic: "보안/인증"
 ---
 

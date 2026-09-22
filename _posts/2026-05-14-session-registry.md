@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "[디스코드잇] SessionRegistry로 세션 관리 고도화하기"
-topic: "디스코드잇"
+log_type: "프로젝트"
+project: "디스코드잇"
 ---
 
 # SessionRegistry로 세션 관리 고도화하기

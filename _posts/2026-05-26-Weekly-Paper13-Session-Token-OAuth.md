@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[보안/인증] 세션 인증·토큰 인증·OAuth 2.0 비교하기"
+log_type: "기술 학습"
 topic: "보안/인증"
 ---
 

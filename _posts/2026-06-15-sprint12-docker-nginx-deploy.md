@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "[디스코드잇] Nginx와 Docker Compose로 배포 구조 만들기"
-topic: "디스코드잇"
+log_type: "프로젝트"
+project: "디스코드잇"
 ---
 
 # Nginx와 Docker Compose로 배포 구조 만들기

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[개발 도구/학습] Git 커밋 이메일과 GitHub 기록 연결하기"
+log_type: "기술 학습"
 topic: "개발 도구/학습"
 ---
 

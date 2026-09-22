@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[Spring/Spring Boot] 웹 서버·WAS와 Spring Boot 빈 등록 이해하기"
+log_type: "기술 학습"
 topic: "Spring/Spring Boot"
 ---
 

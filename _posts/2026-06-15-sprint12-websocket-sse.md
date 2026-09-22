@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "[디스코드잇] 웹소켓과 SSE로 실시간 기능 만들기"
-topic: "디스코드잇"
+log_type: "프로젝트"
+project: "디스코드잇"
 ---
 
 # 웹소켓과 SSE로 실시간 기능 만들기

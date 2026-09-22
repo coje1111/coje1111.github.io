@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "[디스코드잇] User 서비스 인터페이스와 CRUD 구현하기"
-topic: "디스코드잇"
+log_type: "프로젝트"
+project: "디스코드잇"
 ---
 
 # 2026-01-15

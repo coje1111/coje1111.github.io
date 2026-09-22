@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "[HR Bank] 프로젝트 개인 개발 리포트와 회고"
-topic: "HR Bank"
+log_type: "프로젝트"
+project: "HR Bank"
 ---
 #  [HR Bank] 프로젝트 개인 개발 리포트 및 회고
 

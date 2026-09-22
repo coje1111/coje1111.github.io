@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[Spring/Spring Boot] Spring·HTTP·TCP/IP 요청 흐름 이해하기"
+log_type: "기술 학습"
 topic: "Spring/Spring Boot"
 ---
 
