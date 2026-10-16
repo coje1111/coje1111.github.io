@@ -8,7 +8,11 @@ title: 학습 로그
   {% assign asset_version = site.time | date: "%s" %}
 {% endunless %}
 
-<div class="learning-home" data-search-index="{{ '/search-index.json' | relative_url }}?v={{ asset_version }}">
+<div
+  class="learning-home"
+  data-search-index="{{ '/search-index.json' | relative_url }}?v={{ asset_version }}"
+  data-new-window-days="7"
+>
   <section class="learning-hero" aria-labelledby="learning-log-title">
     <p class="learning-hero__eyebrow">BACKEND LEARNING ARCHIVE</p>
     <h1 id="learning-log-title">학습 로그</h1>
@@ -57,7 +61,9 @@ title: 학습 로그
       <summary>
         <span class="archive-section__summary-text">
           <span class="archive-section__eyebrow">PROJECTS</span>
-          <span class="archive-section__title" role="heading" aria-level="2">프로젝트별 기록</span>
+          <span class="archive-section__title-row" data-new-badge-target>
+            <span class="archive-section__title" role="heading" aria-level="2">프로젝트별 기록</span>
+          </span>
           <span class="archive-section__description">제품을 구현하며 해결한 문제를 프로젝트 단위로 모았습니다.</span>
         </span>
         <span class="archive-section__count">{{ project_posts_all.size }}개 글 · {{ site.data.projects.size }}개 프로젝트</span>
@@ -78,7 +84,9 @@ title: 학습 로그
               >
                 <summary>
                   <span class="topic-group__summary-text">
-                    <span class="topic-group__name">{{ project.name }}</span>
+                    <span class="topic-group__name-row" data-new-badge-target>
+                      <span class="topic-group__name">{{ project.name }}</span>
+                    </span>
                     <span class="topic-group__description">{{ project.description }}</span>
                   </span>
                   <span class="topic-group__count">{{ project_posts.size }}개</span>
@@ -111,7 +119,9 @@ title: 학습 로그
       <summary>
         <span class="archive-section__summary-text">
           <span class="archive-section__eyebrow">TECH STUDY</span>
-          <span class="archive-section__title" role="heading" aria-level="2">기술별 학습 기록</span>
+          <span class="archive-section__title-row" data-new-badge-target>
+            <span class="archive-section__title" role="heading" aria-level="2">기술별 학습 기록</span>
+          </span>
           <span class="archive-section__description">프로젝트에 종속되지 않는 개념과 실습을 기술 영역별로 정리했습니다.</span>
         </span>
         <span class="archive-section__count">{{ study_posts_all.size }}개 글 · {{ site.data.topics.size }}개 주제</span>
@@ -132,7 +142,9 @@ title: 학습 로그
               >
                 <summary>
                   <span class="topic-group__summary-text">
-                    <span class="topic-group__name">{{ topic.name }}</span>
+                    <span class="topic-group__name-row" data-new-badge-target>
+                      <span class="topic-group__name">{{ topic.name }}</span>
+                    </span>
                     <span class="topic-group__description">{{ topic.description }}</span>
                   </span>
                   <span class="topic-group__count">{{ topic_posts.size }}개</span>

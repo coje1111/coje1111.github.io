@@ -14,6 +14,11 @@
     return;
   }
 
+  const configuredNewWindowDays = Number(root.dataset.newWindowDays);
+  const newWindowDays = Number.isFinite(configuredNewWindowDays) && configuredNewWindowDays > 0
+    ? configuredNewWindowDays
+    : 7;
+  const newWindowMs = newWindowDays * 24 * 60 * 60 * 1000;
   const entries = Array.from(document.querySelectorAll("[data-post-entry]"));
   const groups = Array.from(document.querySelectorAll("[data-topic-group]"));
   const sections = Array.from(document.querySelectorAll("[data-topic-section]"));
@@ -71,6 +76,48 @@
     });
     saveCurrentGroupState();
   }
+
+  const isNewEntry = (entry) => {
+    const publishedAt = Date.parse(entry.querySelector("time")?.dateTime || "");
+    if (Number.isNaN(publishedAt)) {
+      return false;
+    }
+
+    const age = Date.now() - publishedAt;
+    return age >= 0 && age < newWindowMs;
+  };
+
+  const appendNewBadge = (container, targetSelector) => {
+    const target = container.querySelector(targetSelector);
+    if (!target || target.querySelector(".new-badge")) {
+      return;
+    }
+
+    const badge = document.createElement("span");
+    badge.className = "new-badge";
+    badge.textContent = "NEW";
+    badge.setAttribute("aria-label", `최근 ${newWindowDays}일 이내 새 글`);
+    target.append(badge);
+  };
+
+  const markGroupsWithNewPosts = () => {
+    const groupsWithNewPosts = new Set();
+    const sectionsWithNewPosts = new Set();
+
+    entries.filter(isNewEntry).forEach((entry) => {
+      const group = entry.closest("[data-topic-group]");
+      const section = entry.closest("[data-topic-section]");
+      if (group) {
+        groupsWithNewPosts.add(group);
+      }
+      if (section) {
+        sectionsWithNewPosts.add(section);
+      }
+    });
+
+    groupsWithNewPosts.forEach((group) => appendNewBadge(group, ".topic-group__name-row"));
+    sectionsWithNewPosts.forEach((section) => appendNewBadge(section, ".archive-section__title-row"));
+  };
 
   const fallbackDocument = (entry) => {
     const group = entry.closest("[data-topic-group]");
@@ -169,6 +216,7 @@
     }
   };
 
+  markGroupsWithNewPosts();
   restoreStoredGroupState();
 
   statefulGroups.forEach((group) => {
