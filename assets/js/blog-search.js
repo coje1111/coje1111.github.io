@@ -17,7 +17,7 @@
   const configuredNewWindowDays = Number(root.dataset.newWindowDays);
   const newWindowDays = Number.isFinite(configuredNewWindowDays) && configuredNewWindowDays > 0
     ? configuredNewWindowDays
-    : 7;
+    : 3;
   const newWindowMs = newWindowDays * 24 * 60 * 60 * 1000;
   const entries = Array.from(document.querySelectorAll("[data-post-entry]"));
   const groups = Array.from(document.querySelectorAll("[data-topic-group]"));
@@ -100,11 +100,12 @@
     target.append(badge);
   };
 
-  const markGroupsWithNewPosts = () => {
+  const markNewContent = () => {
+    const newEntries = entries.filter(isNewEntry);
     const groupsWithNewPosts = new Set();
     const sectionsWithNewPosts = new Set();
 
-    entries.filter(isNewEntry).forEach((entry) => {
+    newEntries.forEach((entry) => {
       const group = entry.closest("[data-topic-group]");
       const section = entry.closest("[data-topic-section]");
       if (group) {
@@ -115,6 +116,7 @@
       }
     });
 
+    newEntries.forEach((entry) => appendNewBadge(entry, ".post-entry__title-row"));
     groupsWithNewPosts.forEach((group) => appendNewBadge(group, ".topic-group__name-row"));
     sectionsWithNewPosts.forEach((section) => appendNewBadge(section, ".archive-section__title-row"));
   };
@@ -216,7 +218,7 @@
     }
   };
 
-  markGroupsWithNewPosts();
+  markNewContent();
   restoreStoredGroupState();
 
   statefulGroups.forEach((group) => {

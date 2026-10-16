@@ -11,7 +11,7 @@ title: 학습 로그
 <div
   class="learning-home"
   data-search-index="{{ '/search-index.json' | relative_url }}?v={{ asset_version }}"
-  data-new-window-days="7"
+  data-new-window-days="3"
 >
   <section class="learning-hero" aria-labelledby="learning-log-title">
     <p class="learning-hero__eyebrow">BACKEND LEARNING ARCHIVE</p>
@@ -98,7 +98,9 @@ title: 학습 로그
                     <li class="post-entry" data-post-entry data-url="{{ post.url | relative_url }}">
                       <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
                       <span class="post-entry__separator" aria-hidden="true">—</span>
-                      <a class="post-entry__link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                      <span class="post-entry__title-row" data-new-badge-target>
+                        <a class="post-entry__link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                      </span>
                     </li>
                   {% endfor %}
                 </ol>
@@ -156,7 +158,9 @@ title: 학습 로그
                     <li class="post-entry" data-post-entry data-url="{{ post.url | relative_url }}">
                       <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
                       <span class="post-entry__separator" aria-hidden="true">—</span>
-                      <a class="post-entry__link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                      <span class="post-entry__title-row" data-new-badge-target>
+                        <a class="post-entry__link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                      </span>
                     </li>
                   {% endfor %}
                 </ol>
